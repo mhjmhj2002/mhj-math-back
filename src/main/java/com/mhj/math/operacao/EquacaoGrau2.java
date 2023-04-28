@@ -3,6 +3,7 @@ package com.mhj.math.operacao;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.mhj.math.data.Descricao;
 import com.mhj.math.data.Inteiro;
 import com.mhj.math.enums.Letra;
@@ -12,6 +13,7 @@ import com.mhj.math.metodo.Metodo;
 
 public class EquacaoGrau2 {
 
+	@JsonIgnore
 	private Letra variavel;
 
 	@Valid
@@ -19,33 +21,50 @@ public class EquacaoGrau2 {
 	private Descricao a;
 
 	@Valid
-	@NotNull(message = "b nao deve ser nulo")
+	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.b}")
 	private Descricao b;
 
+	@Valid
+	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.c}")
 	private Descricao c;
 
+	@Valid
+	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.sinalA}")
 	private Sinal sinalA;
 
+	@Valid
+	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.sinalB}")
 	private Sinal sinalB;
 
+	@Valid
+	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.sinalC}")
 	private Sinal sinalC;
 
+	@JsonIgnore
 	private Descricao resultado;
 
+	@JsonIgnore
 	private Sinal sinalResultado;
 
+	@JsonIgnore
 	private Metodo metodo;
 
+	@JsonIgnore
 	private Inteiro delta;
 
+	@JsonIgnore
 	private Descricao x1;
 
+	@JsonIgnore
 	private Descricao x2;
 
+	@JsonIgnore
 	private Fracao x1Fracao;
 
+	@JsonIgnore
 	private Fracao x2Fracao;
 
+	@JsonIgnore
 	private SinalDelta sinalDelta;
 
 	public EquacaoGrau2() {
