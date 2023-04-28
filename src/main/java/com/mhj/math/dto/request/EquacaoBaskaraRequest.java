@@ -1,24 +1,26 @@
-package com.mhj.math.dto;
+package com.mhj.math.dto.request;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
 import com.mhj.math.enums.Sinal;
-import com.mhj.math.type.Descricao;
 
+import lombok.Data;
+
+@Data
 public class EquacaoBaskaraRequest {
 
 	@Valid
 	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.a}")
-	private Descricao a;
+	private Integer a;
 
 	@Valid
 	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.b}")
-	private Descricao b;
+	private Integer b;
 
 	@Valid
 	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.c}")
-	private Descricao c;
+	private Integer c;
 
 	@Valid
 	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.sinalA}")

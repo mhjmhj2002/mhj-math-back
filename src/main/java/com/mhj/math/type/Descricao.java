@@ -1,12 +1,9 @@
 package com.mhj.math.type;
 
-import javax.validation.constraints.NotBlank;
-
 import com.mhj.math.type.interfaces.Info;
 
 public class Descricao implements Info {
 	
-	@NotBlank(message = "a obrigatorio")
 	String html;
 
 	public Descricao(String descricao) {
