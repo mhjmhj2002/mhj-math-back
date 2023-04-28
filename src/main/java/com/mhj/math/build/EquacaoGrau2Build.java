@@ -5,9 +5,6 @@ import java.util.List;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
-import com.mhj.math.data.Descricao;
-import com.mhj.math.data.Inteiro;
-import com.mhj.math.data.interfaces.Data;
 import com.mhj.math.enums.Letra;
 import com.mhj.math.enums.LineSeparator;
 import com.mhj.math.enums.Operando;
@@ -20,6 +17,9 @@ import com.mhj.math.metodo.Bhaskara;
 import com.mhj.math.operacao.Divisao;
 import com.mhj.math.operacao.EquacaoGrau2;
 import com.mhj.math.operacao.Fracao;
+import com.mhj.math.type.Descricao;
+import com.mhj.math.type.Inteiro;
+import com.mhj.math.type.interfaces.Data;
 import com.mhj.math.util.OperacaoUtil;
 
 @Component

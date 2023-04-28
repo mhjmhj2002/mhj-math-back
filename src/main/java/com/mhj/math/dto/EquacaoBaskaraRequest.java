@@ -3,8 +3,8 @@ package com.mhj.math.dto;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
-import com.mhj.math.data.Descricao;
 import com.mhj.math.enums.Sinal;
+import com.mhj.math.type.Descricao;
 
 public class EquacaoBaskaraRequest {
 

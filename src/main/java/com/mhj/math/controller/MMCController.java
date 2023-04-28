@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mhj.math.build.MMCBuild;
-import com.mhj.math.data.Inteiro;
 import com.mhj.math.exception.BusinessException;
 import com.mhj.math.exception.RegraException;
 import com.mhj.math.operacao.MMC;
 import com.mhj.math.operacao.Operacao;
 import com.mhj.math.print.Impressao;
+import com.mhj.math.type.Inteiro;
 
 import lombok.extern.slf4j.Slf4j;
 

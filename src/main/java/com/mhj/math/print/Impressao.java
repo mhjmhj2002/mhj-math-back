@@ -6,10 +6,10 @@ import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-import com.mhj.math.data.interfaces.Data;
 import com.mhj.math.enums.HtmlTag;
 import com.mhj.math.enums.Simbolo;
 import com.mhj.math.enums.TagPropertie;
+import com.mhj.math.type.interfaces.Data;
 
 import lombok.extern.slf4j.Slf4j;
 

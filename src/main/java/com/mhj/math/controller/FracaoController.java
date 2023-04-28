@@ -17,12 +17,12 @@ import com.mhj.math.build.FracaoDivisaoBuild;
 import com.mhj.math.build.FracaoMultiplicacaoBuild;
 import com.mhj.math.build.FracaoSimplificacaoBuild;
 import com.mhj.math.build.FracaoSomaBuild;
-import com.mhj.math.data.Inteiro;
 import com.mhj.math.exception.BusinessException;
 import com.mhj.math.exception.RegraException;
 import com.mhj.math.operacao.Fracao;
 import com.mhj.math.operacao.Operacao;
 import com.mhj.math.print.Impressao;
+import com.mhj.math.type.Inteiro;
 
 @CrossOrigin(origins = "*")
 @RestController

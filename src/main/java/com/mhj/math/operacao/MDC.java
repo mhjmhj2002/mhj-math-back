@@ -3,7 +3,7 @@ package com.mhj.math.operacao;
 import java.util.Collections;
 import java.util.List;
 
-import com.mhj.math.data.Inteiro;
+import com.mhj.math.type.Inteiro;
 import com.mhj.math.util.OperacaoUtil;
 
 public class MDC extends Comum{

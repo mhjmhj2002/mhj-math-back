@@ -2,10 +2,10 @@ package com.mhj.math.build;
 
 import java.util.List;
 
-import com.mhj.math.data.Descricao;
 import com.mhj.math.enums.MathjaxTag;
 import com.mhj.math.exception.RegraException;
 import com.mhj.math.operacao.Potenciacao;
+import com.mhj.math.type.Descricao;
 import com.mhj.math.util.OperacaoUtil;
 
 public abstract class PotenciaBuild extends Build {

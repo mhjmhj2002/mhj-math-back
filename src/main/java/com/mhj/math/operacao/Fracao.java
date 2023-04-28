@@ -2,7 +2,7 @@ package com.mhj.math.operacao;
 
 import java.io.Serializable;
 
-import com.mhj.math.data.Inteiro;
+import com.mhj.math.type.Inteiro;
 
 public class Fracao implements Serializable {
 

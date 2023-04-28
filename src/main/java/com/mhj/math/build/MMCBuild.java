@@ -5,11 +5,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.mhj.math.data.Descricao;
-import com.mhj.math.data.Inteiro;
-import com.mhj.math.data.PropertyComposta;
-import com.mhj.math.data.TagComposta;
-import com.mhj.math.data.ValueComposta;
 import com.mhj.math.enums.LineSeparator;
 import com.mhj.math.enums.MathjaxProperty;
 import com.mhj.math.enums.MathjaxTag;
@@ -20,6 +15,11 @@ import com.mhj.math.exception.BusinessException;
 import com.mhj.math.exception.RegraException;
 import com.mhj.math.operacao.Divisao;
 import com.mhj.math.operacao.MMC;
+import com.mhj.math.type.Descricao;
+import com.mhj.math.type.Inteiro;
+import com.mhj.math.type.PropertyComposta;
+import com.mhj.math.type.TagComposta;
+import com.mhj.math.type.ValueComposta;
 import com.mhj.math.util.MathjaxUtil;
 import com.mhj.math.util.OperacaoUtil;
 

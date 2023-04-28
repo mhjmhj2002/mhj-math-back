@@ -6,8 +6,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.mhj.math.data.Descricao;
-import com.mhj.math.data.Inteiro;
 import com.mhj.math.enums.LineSeparator;
 import com.mhj.math.enums.MathjaxTag;
 import com.mhj.math.enums.Simbolo;
@@ -15,6 +13,8 @@ import com.mhj.math.exception.BusinessException;
 import com.mhj.math.exception.RegraException;
 import com.mhj.math.operacao.Fracao;
 import com.mhj.math.operacao.MMC;
+import com.mhj.math.type.Descricao;
+import com.mhj.math.type.Inteiro;
 import com.mhj.math.util.OperacaoUtil;
 
 import lombok.extern.slf4j.Slf4j;

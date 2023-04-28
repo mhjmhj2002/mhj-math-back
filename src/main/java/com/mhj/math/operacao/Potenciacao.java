@@ -1,6 +1,6 @@
 package com.mhj.math.operacao;
 
-import com.mhj.math.data.Inteiro;
+import com.mhj.math.type.Inteiro;
 
 public class Potenciacao {
 	

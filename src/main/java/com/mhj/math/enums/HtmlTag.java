@@ -1,6 +1,6 @@
 package com.mhj.math.enums;
 
-import com.mhj.math.data.interfaces.Tag;
+import com.mhj.math.type.interfaces.Tag;
 
 public enum HtmlTag implements Tag {
 	

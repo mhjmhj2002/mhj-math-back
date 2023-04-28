@@ -1,6 +1,6 @@
 package com.mhj.math.enums;
 
-import com.mhj.math.data.interfaces.Expressao;
+import com.mhj.math.type.interfaces.Expressao;
 
 public enum Operando implements Expressao {
 	

@@ -1,6 +1,6 @@
 package com.mhj.math.enums;
 
-import com.mhj.math.data.interfaces.Value;
+import com.mhj.math.type.interfaces.Value;
 
 public enum MathjaxValue implements Value {
 	

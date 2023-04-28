@@ -2,11 +2,11 @@ package com.mhj.math.util;
 
 import java.util.List;
 
-import com.mhj.math.data.Descricao;
-import com.mhj.math.data.Inteiro;
 import com.mhj.math.enums.Sinal;
 import com.mhj.math.operacao.Divisao;
 import com.mhj.math.operacao.Fracao;
+import com.mhj.math.type.Descricao;
+import com.mhj.math.type.Inteiro;
 
 public class OperacaoUtil {
 

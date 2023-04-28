@@ -2,9 +2,9 @@ package com.mhj.math.build;
 
 import java.util.List;
 
-import com.mhj.math.data.Inteiro;
 import com.mhj.math.exception.BusinessException;
 import com.mhj.math.exception.RegraException;
+import com.mhj.math.type.Inteiro;
 
 public abstract class OperacaoBasicaBuild extends Build {
 	

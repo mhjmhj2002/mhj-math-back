@@ -2,7 +2,7 @@ package com.mhj.math.operacao;
 
 import java.util.List;
 
-import com.mhj.math.data.Inteiro;
+import com.mhj.math.type.Inteiro;
 
 public abstract class Comum {
 	protected Inteiro divisor;

@@ -1,6 +1,6 @@
 package com.mhj.math.enums;
 
-import com.mhj.math.data.interfaces.Property;
+import com.mhj.math.type.interfaces.Property;
 
 public enum MathjaxProperty implements Property {
 	

@@ -1,7 +1,7 @@
 package com.mhj.math.enums;
 
-import com.mhj.math.data.interfaces.Expressao;
-import com.mhj.math.data.interfaces.Tag;
+import com.mhj.math.type.interfaces.Expressao;
+import com.mhj.math.type.interfaces.Tag;
 
 public enum LineSeparator implements Expressao{
 	

@@ -18,13 +18,13 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.mhj.math.build.MDCBuild;
-import com.mhj.math.data.Inteiro;
 import com.mhj.math.dto.MdcDto;
 import com.mhj.math.exception.BusinessException;
 import com.mhj.math.exception.RegraException;
 import com.mhj.math.operacao.MDC;
 import com.mhj.math.operacao.Operacao;
 import com.mhj.math.print.Impressao;
+import com.mhj.math.type.Inteiro;
 import com.mhj.math.validation.MDCValidation;
 
 import lombok.extern.slf4j.Slf4j;

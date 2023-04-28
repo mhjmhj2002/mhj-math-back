@@ -4,12 +4,12 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.mhj.math.data.Descricao;
-import com.mhj.math.data.Inteiro;
 import com.mhj.math.enums.Letra;
 import com.mhj.math.enums.Sinal;
 import com.mhj.math.enums.SinalDelta;
 import com.mhj.math.metodo.Metodo;
+import com.mhj.math.type.Descricao;
+import com.mhj.math.type.Inteiro;
 
 public class EquacaoGrau2 {
 

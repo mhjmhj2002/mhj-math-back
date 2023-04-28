@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.mhj.math.build.EquacaoGrau2Build;
-import com.mhj.math.data.Descricao;
 import com.mhj.math.enums.Letra;
 import com.mhj.math.enums.Sinal;
 import com.mhj.math.exception.BusinessException;
@@ -26,6 +25,7 @@ import com.mhj.math.metodo.Bhaskara;
 import com.mhj.math.operacao.EquacaoGrau2;
 import com.mhj.math.operacao.Operacao;
 import com.mhj.math.print.Impressao;
+import com.mhj.math.type.Descricao;
 
 import lombok.extern.slf4j.Slf4j;
 

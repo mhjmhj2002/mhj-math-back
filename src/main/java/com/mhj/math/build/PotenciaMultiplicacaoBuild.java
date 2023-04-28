@@ -4,11 +4,11 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.mhj.math.data.Descricao;
 import com.mhj.math.enums.LineSeparator;
 import com.mhj.math.exception.BusinessException;
 import com.mhj.math.exception.RegraException;
 import com.mhj.math.operacao.Potenciacao;
+import com.mhj.math.type.Descricao;
 
 @Component
 public class PotenciaMultiplicacaoBuild extends PotenciaBuild {

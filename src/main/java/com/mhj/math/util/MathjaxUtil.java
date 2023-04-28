@@ -3,15 +3,15 @@ package com.mhj.math.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mhj.math.data.Descricao;
-import com.mhj.math.data.PropertyComposta;
-import com.mhj.math.data.TagComposta;
-import com.mhj.math.data.ValueComposta;
-import com.mhj.math.data.interfaces.Data;
 import com.mhj.math.enums.MathjaxProperty;
 import com.mhj.math.enums.MathjaxTag;
 import com.mhj.math.enums.MathjaxValue;
 import com.mhj.math.enums.Simbolo;
+import com.mhj.math.type.Descricao;
+import com.mhj.math.type.PropertyComposta;
+import com.mhj.math.type.TagComposta;
+import com.mhj.math.type.ValueComposta;
+import com.mhj.math.type.interfaces.Data;
 
 public class MathjaxUtil {
 	

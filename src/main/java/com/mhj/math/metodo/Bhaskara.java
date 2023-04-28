@@ -2,12 +2,12 @@ package com.mhj.math.metodo;
 
 import java.util.List;
 
-import com.mhj.math.data.Descricao;
-import com.mhj.math.data.Inteiro;
-import com.mhj.math.data.interfaces.Data;
 import com.mhj.math.enums.Letra;
 import com.mhj.math.enums.MathjaxTag;
 import com.mhj.math.enums.Simbolo;
+import com.mhj.math.type.Descricao;
+import com.mhj.math.type.Inteiro;
+import com.mhj.math.type.interfaces.Data;
 import com.mhj.math.util.MathjaxUtil;
 
 public class Bhaskara extends Metodo {
