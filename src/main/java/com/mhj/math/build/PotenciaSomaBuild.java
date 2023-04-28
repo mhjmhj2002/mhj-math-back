@@ -2,9 +2,7 @@ package com.mhj.math.build;
 
 import java.util.List;
 
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import org.springframework.web.context.WebApplicationContext;
 
 import com.mhj.math.data.Descricao;
 import com.mhj.math.enums.LineSeparator;
@@ -14,7 +12,6 @@ import com.mhj.math.operacao.Potenciacao;
 import com.mhj.math.util.OperacaoUtil;
 
 @Component
-@Scope(value=WebApplicationContext.SCOPE_REQUEST)
 public class PotenciaSomaBuild extends PotenciaBuild {
 
 	@Override

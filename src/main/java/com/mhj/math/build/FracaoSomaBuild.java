@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import org.springframework.web.context.WebApplicationContext;
 
 import com.mhj.math.data.Descricao;
 import com.mhj.math.data.Inteiro;
@@ -22,7 +20,6 @@ import com.mhj.math.util.OperacaoUtil;
 import lombok.extern.slf4j.Slf4j;
 
 @Component
-@Scope(value = WebApplicationContext.SCOPE_REQUEST)
 @Slf4j
 public class FracaoSomaBuild extends FracaoBuild {
 	

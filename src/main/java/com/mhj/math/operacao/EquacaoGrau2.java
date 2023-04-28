@@ -1,6 +1,7 @@
 package com.mhj.math.operacao;
 
-import java.io.Serializable;
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 
 import com.mhj.math.data.Descricao;
 import com.mhj.math.data.Inteiro;
@@ -9,17 +10,16 @@ import com.mhj.math.enums.Sinal;
 import com.mhj.math.enums.SinalDelta;
 import com.mhj.math.metodo.Metodo;
 
-public class EquacaoGrau2 implements Serializable {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 6169821135021301279L;
+public class EquacaoGrau2 {
 
 	private Letra variavel;
 
+	@Valid
+	@NotNull(message = "{EquacaoGrau2Build.field.required.equacaoGrau2.a}")
 	private Descricao a;
 
+	@Valid
+	@NotNull(message = "b nao deve ser nulo")
 	private Descricao b;
 
 	private Descricao c;
@@ -41,11 +41,11 @@ public class EquacaoGrau2 implements Serializable {
 	private Descricao x1;
 
 	private Descricao x2;
-	
+
 	private Fracao x1Fracao;
-	
+
 	private Fracao x2Fracao;
-	
+
 	private SinalDelta sinalDelta;
 
 	public EquacaoGrau2() {
@@ -167,9 +167,9 @@ public class EquacaoGrau2 implements Serializable {
 		Inteiro zero = new Inteiro(0);
 		if (zero.compareTo(delta) < 0) {
 			sinalDelta = SinalDelta.POSITIVO;
-		}else if (zero.compareTo(delta) > 0) {
+		} else if (zero.compareTo(delta) > 0) {
 			sinalDelta = SinalDelta.NEGATIVO;
-		}else{
+		} else {
 			sinalDelta = SinalDelta.ZERO;
 		}
 	}

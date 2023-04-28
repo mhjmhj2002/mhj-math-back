@@ -24,7 +24,6 @@ import com.mhj.math.util.MathjaxUtil;
 import com.mhj.math.util.OperacaoUtil;
 
 @Component
-//@Scope(value = WebApplicationContext.SCOPE_REQUEST)
 public class MMCBuild extends Build {
 
 	private MMC mmc;

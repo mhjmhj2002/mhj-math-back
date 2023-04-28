@@ -3,9 +3,7 @@ package com.mhj.math.build;
 import java.util.List;
 
 import org.springframework.context.MessageSource;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import org.springframework.web.context.WebApplicationContext;
 
 import com.mhj.math.data.Descricao;
 import com.mhj.math.data.Inteiro;
@@ -25,7 +23,6 @@ import com.mhj.math.operacao.Fracao;
 import com.mhj.math.util.OperacaoUtil;
 
 @Component
-@Scope(value=WebApplicationContext.SCOPE_REQUEST)
 public class EquacaoGrau2Build extends Build{
 
 	EquacaoGrau2 equacaoGrau2;
