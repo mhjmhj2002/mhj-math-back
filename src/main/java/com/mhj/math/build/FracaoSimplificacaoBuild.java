@@ -134,6 +134,9 @@ public class FracaoSimplificacaoBuild extends FracaoBuild {
 	}
 
 	private void validarFracaoIrredutivel() throws RegraException {
+		if (fracao.getNumerador().getValor() > fracao.getDenominador().getValor()) {
+			return;
+		}
 		if (OperacaoUtil.mdc(fracao.getNumerador(), fracao.getDenominador()).getValor() == 1) {
 			operacao.getRetorno().add(new Descricao(messageSource.getMessage("FracaoSimplificacaoBuild.validarFracaoIrredutivel.1", null, locale)));
 			abreMath();

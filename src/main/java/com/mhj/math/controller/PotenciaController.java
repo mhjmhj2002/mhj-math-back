@@ -39,11 +39,11 @@ public class PotenciaController {
 		List<Inteiro> expList = new ArrayList<>();
 		List<Potenciacao> potencias = new ArrayList<>();
 
-		for (int i = 1; i < expoentes.size(); i++) {
+		for (int i = 0; i < expoentes.size(); i++) {
 			expList.add(new Inteiro(Integer.valueOf(sinaisExpoente.get(i) + expoentes.get(i))));
 		}
 		
-		for (int i = 1; i < bases.size(); i++) {
+		for (int i = 0; i < bases.size(); i++) {
 			baseList.add(new Inteiro(Integer.valueOf(sinaisBase.get(i) + bases.get(i))));
 		}
 		

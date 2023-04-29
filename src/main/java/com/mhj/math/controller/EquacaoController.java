@@ -24,12 +24,9 @@ import com.mhj.math.operacao.Operacao;
 import com.mhj.math.print.Impressao;
 import com.mhj.math.type.Descricao;
 
-import lombok.extern.slf4j.Slf4j;
-
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/equacao-baskara")
-@Slf4j
 public class EquacaoController {
 
 	@Autowired

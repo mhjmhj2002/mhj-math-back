@@ -49,11 +49,11 @@ public class FracaoController {
 		List<Inteiro> denoms = new ArrayList<>();
 		List<Fracao> fracoes = new ArrayList<>();
 
-		for (int i = 1; i < numeradores.size(); i++) {
+		for (int i = 0; i < numeradores.size(); i++) {
 			nums.add(new Inteiro(Integer.valueOf(sinais.get(i) + numeradores.get(i))));
 		}
 		
-		for (int i = 1; i < denominadores.size(); i++) {
+		for (int i = 0; i < denominadores.size(); i++) {
 			denoms.add(new Inteiro(denominadores.get(i)));
 		}
 		

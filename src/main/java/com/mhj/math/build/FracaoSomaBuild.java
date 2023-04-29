@@ -198,6 +198,7 @@ public class FracaoSomaBuild extends FracaoBuild {
 		fracaoSimplificacaoBuild.setFracao(fracao);
 		fracaoSimplificacaoBuild.setLocale(locale);
 		fracaoSimplificacaoBuild.setOperacao(this.operacao);
+		fracaoSimplificacaoBuild.setValidarNumeradorMaiorComResto(true);
 		fracaoSimplificacaoBuild.resolver();
 	}
 
